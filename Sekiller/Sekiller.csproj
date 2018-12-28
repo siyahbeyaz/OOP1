@@ -43,10 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="KarePrizma.cs" />
+    <Compile Include="Daire.cs" />
+    <Compile Include="Siniflar\Daire.cs" />
+    <Compile Include="Siniflar\Dikdortgen.cs" />
+    <Compile Include="Siniflar\Kare.cs" />
+    <Compile Include="Siniflar\KarePrizma.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Sekil.cs" />
+    <Compile Include="Siniflar\Sekil.cs" />
+    <Compile Include="Siniflar\Silindir.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

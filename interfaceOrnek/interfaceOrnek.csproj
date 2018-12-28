@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E965219B-A362-4D96-BDDA-F616BA9BAF15}</ProjectGuid>
+    <ProjectGuid>{42AAD6F8-515B-432A-A38C-85D35330BF5C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>AracOOP</RootNamespace>
-    <AssemblyName>AracOOP</AssemblyName>
+    <RootNamespace>interfaceOrnek</RootNamespace>
+    <AssemblyName>interfaceOrnek</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,20 +45,9 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Siniflar\Arac.cs" />
-    <Compile Include="Siniflar\IArac.cs" />
-    <Compile Include="Siniflar\IKapasite.cs" />
-    <Compile Include="Siniflar\Otomobil.cs" />
-    <Compile Include="Siniflar\Ucak.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Sekiller\Sekiller.csproj">
-      <Project>{d064a750-01c0-47b2-9893-4d3561267458}</Project>
-      <Name>Sekiller</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

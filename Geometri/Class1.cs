@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sekiller
+namespace Geometri
 {
-    class Sekil
+    public class Class1
     {
-        
-
-
     }
 }
